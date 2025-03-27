@@ -1,0 +1,102 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "7a852849-478a-4c67-b499-3b7d9a203a08",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The number is positive .\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question no 1\n",
+    "num=5\n",
+    "if num >0:\n",
+    "    print(\"The number is positive .\")\n",
+    "elif num<0:\n",
+    "    print(\"The number is negative.\")\n",
+    "else:\n",
+    "    print(\"The number is zero.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "4107a168-7468-4305-9d61-d47f3dea96d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2024 is a leap year.\n"
+     ]
+    }
+   ],
+   "source": [
+    "#question no 2\n",
+    "import calendar\n",
+    "year=2024\n",
+    "if calendar.isleap(year):\n",
+    "    print(year,\"is a leap year.\")\n",
+    "else:\n",
+    "    print(year,\"is not a leap year.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "6494e26d-7d54-4339-a718-9972e3e6482e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#question no 3\n",
+    "marks=76\n",
+    "if marks>=85:\n",
+    "    grade=\"A\"\n",
+    "elif marks>=70:\n",
+    "    grade=\"B\"\n",
+    "elif marks>=50:\n",
+    "    grade=\"c\"\n",
+    "else:\n",
+    "    grade=\"F\"\n",
+    "print(\"The students "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e1f51a1f-f27a-4297-98a7-23aa8afcb213",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
